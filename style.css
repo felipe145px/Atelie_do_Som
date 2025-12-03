@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+:root{
+ 
+    --cor1:#4A4A4A;
+    --cor2:#663A28;
+    --cor3:#5C4E43;
+    --cor4:#FFFFFF;
+    --cor5:#00000000;
+    --cor6:#CB7F44;
+    --fundo-site:#78909A;
+
+
+
+}
+
+body{
+    background-color: var(--fundo-site);
+
+}
+
+/* HEADER */
+head{
+    width: 100%;
+}
+
+header>div.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 165px;
+}
+
+.container-flex{
+    widh: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
