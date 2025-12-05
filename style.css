@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Bell MT", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -13,10 +14,27 @@
     --cor5: #00000000;
     --cor6: #CB7F44;
     --fundo-site: #78909A;
-
-
-
 }
+
+@font-face {
+    font-family: bell-mt ;
+    src: url(./fonts/bell-mt-bold.ttf);
+    font-weight: bolder;
+}
+
+
+@font-face {
+    font-family: bell-mt ;
+    src: url(./fonts/eshira.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: bell-mt ;
+    src: url(./fonts/eshira.otf);
+    font-weight: 400;
+}
+
 
 body {
     background-color: var(--fundo-site);
@@ -32,7 +50,7 @@ header>div.container-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 165px;
+    height: 250px;
 }
 
 .container-flex {
@@ -55,13 +73,27 @@ header>div.container-flex {
 
 }
 
-.links a:hover{
+.links a:hover {
     color: var(--cor6);
     border-bottom: 1px solid var(--cor4);
 }
 
 #icone-barras,
 #icone-x,
-#menu_botao{
+#menu_botao {
     display: none;
 }
+
+#banner-master{
+    background-image: url(./img/baner01.svg);
+    height: 1080px;
+     background-repeat: no-repeat;
+    background-position: 0 -10px; 
+     justify-content: space-between;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    
+}
+
