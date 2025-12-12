@@ -312,9 +312,9 @@ span {
 #parallax01 {
     height: 250px;
 
-    background-image: url(./img/_\ \(8\)\ 1.svg);
+    background-image: url(./img/piano.svg);
 
-    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/_\ \(8\)\ 1.svg);
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/piano.svg);
     background-attachment: fixed;
     background-size: 30%;
 
@@ -439,9 +439,9 @@ span {
     margin-top: 100px;
     height: 250px;
 
-    background-image: url(./img/piano.svg);
+    background-image: url(./img/osmlk.svg);
 
-    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/IMG_1776\ 1.svg);
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/osmlk.svg);
     background-attachment: fixed;
     background-size: 30%;
 
