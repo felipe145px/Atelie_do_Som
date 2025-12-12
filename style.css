@@ -79,7 +79,7 @@ header>div.container-flex {
 }
 #icone-barras,
 #icone-x{
-    fill: white;
+    fill: white     ;
 }
 /* 
 #menu_botao {
@@ -439,7 +439,7 @@ span {
     margin-top: 100px;
     height: 250px;
 
-    background-image: url(./img/IMG_1776\ 1.svg);
+    background-image: url(./img/piano.svg);
 
     background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/IMG_1776\ 1.svg);
     background-attachment: fixed;
